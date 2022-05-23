@@ -225,7 +225,8 @@ bool run{ true };
 int main() {
 	
 	srand(time(NULL));
-	const size_t sz = 10;
-	Game<sz> game = Game<sz>();
+	const size_t sz{ 10 };
+	size_t mines{ 10 };
+	minesweeper::Game<sz> game = minesweeper::Game<sz>(mines);
 	game.begin();
 }
