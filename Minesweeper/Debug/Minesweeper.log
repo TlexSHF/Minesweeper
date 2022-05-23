@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\main.cpp(227,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\Game.h(87,6): warning C4101: 'userCol': unreferenced local variable
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\Game.h(75): message : while compiling class template member function 'void Game<10>::game(void)'
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\Game.h(43): message : see reference to function template instantiation 'void Game<10>::game(void)' being compiled
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\Game.h(31): message : while compiling class template member function 'Game<10>::Game(void)'
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\main.cpp(229): message : see reference to function template instantiation 'Game<10>::Game(void)' being compiled
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\main.cpp(229): message : see reference to class template instantiation 'Game<10>' being compiled
+C:\Users\simone\source\repos\Minesweeper\Minesweeper\Game.h(86,6): warning C4101: 'userRow': unreferenced local variable
+  Minesweeper.vcxproj -> C:\Users\simone\source\repos\Minesweeper\Debug\Minesweeper.exe
